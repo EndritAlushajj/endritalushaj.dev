@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endrit Alushaj | Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="sidebar">
+            <div class="logo-ea">
+                <span class="char-e">E</span>
+                <span class="char-a">A</span>
+                <div class="logo-slash"></div>
+            </div>
+            
+            <h1>Endrit Alushaj</h1>
+            <p class="subtitle">Junior Developer & Tech Explorer</p>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about"><span>01</span> ABOUT</a></li>
+                    <li><a href="#projects"><span>02</span> PROJECTS</a></li>
+                    <li><a href="#contact"><span>03</span> CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-links">
+                <a href="https://github.com/endritlushaj" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </header>
+
+        <main class="content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a passionate developer focused on building clean, modern digital experiences. Currently, I am mastering HTML, CSS, and JavaScript to create high-performance web applications.</p>
+            </section>
+            
+            <section id="projects">
+                <h2>Featured Projects</h2>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>Designed and developed my official portfolio site. Built with pure HTML and CSS, featuring a custom-coded logo, responsive layout, and modern UI effects.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <form name="contact" method="POST" action="/success.html" data-netlify="true" class="contact-form">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
